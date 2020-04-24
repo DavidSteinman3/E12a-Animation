@@ -16,8 +16,6 @@ sun_energy = 16.0
 [sub_resource type="Environment" id=2]
 background_mode = 2
 background_sky = SubResource( 1 )
-fog_height_min = 0.0
-fog_height_max = 100.0
 tonemap_mode = 2
 ssao_enabled = true
 ssao_bias = 0.001
@@ -46,6 +44,9 @@ extents = Vector3( 20, 0.1, 16 )
 
 [node name="Camera" parent="." index="2"]
 transform = Transform( 0.247995, 0.0203468, 0.968548, -1.30816e-06, 0.99978, -0.0210025, -0.968762, 0.00520725, 0.24794, 12.2135, 1.56139, -0.938473 )
+
+[node name="Plant1" parent="." index="7"]
+visible = false
 
 [node name="Sun" parent="." index="18"]
 shadow_enabled = true
